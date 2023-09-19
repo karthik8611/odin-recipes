@@ -1,0 +1,65 @@
+/* *{
+    background-color: lightgoldenrodyellow;
+}
+
+#photo{
+    width: 100px;
+    height: 50px;
+    
+}
+
+.parent-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    
+}
+
+.ul{
+    
+    margin-top: 10px;
+} */
+
+/* Styles.css */
+
+/* Apply styles to the entire document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: lightgoldenrodyellow;
+    text-align: center; /* Center text in the body */
+  }
+  
+  .parent-container {
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to the viewport height */
+  }
+  
+  #photo img {
+    border-radius: 10px;
+    max-width: 50%; /* Make sure the image doesn't exceed its parent container's width */
+    height: auto; /* Allow the image's height to adjust proportionally */
+    margin-top: 20px; /* Add some space between the image and the heading */
+  }
+  
+  ul {
+    list-style: none; /* Remove the default list styles */
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  /* Center the heading text */
+  h1 {
+    font-size:  50px; ;
+    margin-bottom: 20px; /* Add space below the heading */
+  }
+
+  
